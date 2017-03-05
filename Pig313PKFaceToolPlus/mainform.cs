@@ -11,7 +11,7 @@ namespace Pig313PKFaceToolPlus
 {
     public partial class MainForm : Form
     {
-        const int buttonsize = 50;
+        const int buttonsize = 75;
         EditForm dlg;
         FlowLayoutPanel[] flowPanels = null;
         public MainForm()
@@ -95,10 +95,12 @@ namespace Pig313PKFaceToolPlus
             var btn = ((Button)sender);
             var fdata = btn.Tag as FaceData;
             this.dlg.SetFaceData(fdata, btn.Image);
+            this.Hide();
             if (this.dlg.ShowDialog(this) == DialogResult.OK)
             {
                 this.ButtonBindFaceData(btn, fdata);
             }
+            this.Visible = true;
         }
 
         private void ResetFaceData(FaceData fdata)

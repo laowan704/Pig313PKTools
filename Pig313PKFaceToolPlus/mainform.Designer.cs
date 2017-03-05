@@ -66,7 +66,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1010, 517);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1520, 755);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // tabControl1
@@ -83,7 +83,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1024, 549);
+            this.tabControl1.Size = new System.Drawing.Size(1534, 787);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -92,7 +92,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1016, 523);
+            this.tabPage1.Size = new System.Drawing.Size(1526, 761);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -236,16 +236,16 @@
             this.panel1.Controls.Add(this.btnReset);
             this.panel1.Controls.Add(this.btnDo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 549);
+            this.panel1.Location = new System.Drawing.Point(0, 787);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1024, 62);
+            this.panel1.Size = new System.Drawing.Size(1534, 62);
             this.panel1.TabIndex = 2;
             // 
             // btnSplit22
             // 
             this.btnSplit22.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btnSplit22.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSplit22.Location = new System.Drawing.Point(776, 21);
+            this.btnSplit22.Location = new System.Drawing.Point(1286, 21);
             this.btnSplit22.Name = "btnSplit22";
             this.btnSplit22.Size = new System.Drawing.Size(75, 23);
             this.btnSplit22.TabIndex = 2;
@@ -267,7 +267,7 @@
             // 
             this.btnDo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnDo.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnDo.Location = new System.Drawing.Point(857, 10);
+            this.btnDo.Location = new System.Drawing.Point(1367, 10);
             this.btnDo.Name = "btnDo";
             this.btnDo.Size = new System.Drawing.Size(155, 40);
             this.btnDo.TabIndex = 0;
@@ -279,7 +279,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 611);
+            this.ClientSize = new System.Drawing.Size(1534, 849);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Name = "MainForm";
